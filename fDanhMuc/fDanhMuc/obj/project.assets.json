@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\Pikachu-Object-oriented-programming\\Huy\\fDanhMuc\\fDanhMuc\\fDanhMuc.csproj",
+      "projectUniqueName": "D:\\lập trình hướng đối tượng\\fDanhMuc\\fDanhMuc\\fDanhMuc.csproj",
       "projectName": "fDanhMuc",
-      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\Pikachu-Object-oriented-programming\\Huy\\fDanhMuc\\fDanhMuc\\fDanhMuc.csproj",
+      "projectPath": "D:\\lập trình hướng đối tượng\\fDanhMuc\\fDanhMuc\\fDanhMuc.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\source\\repos\\Pikachu-Object-oriented-programming\\Huy\\fDanhMuc\\fDanhMuc\\obj\\",
+      "outputPath": "D:\\lập trình hướng đối tượng\\fDanhMuc\\fDanhMuc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
