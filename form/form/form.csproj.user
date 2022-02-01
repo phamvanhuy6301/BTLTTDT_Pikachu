@@ -4,6 +4,9 @@
     <Compile Update="fDangKi.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="fDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="fDanhMuc.cs">
       <SubType>Form</SubType>
     </Compile>

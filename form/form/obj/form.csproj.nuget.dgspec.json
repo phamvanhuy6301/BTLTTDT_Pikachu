@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\lập trình hướng đối tượng\\form\\form\\form.csproj": {}
+    "C:\\Users\\tiendt\\OneDrive\\Documents\\New folder (2)\\form\\form\\form.csproj": {}
   },
   "projects": {
-    "D:\\lập trình hướng đối tượng\\form\\form\\form.csproj": {
+    "C:\\Users\\tiendt\\OneDrive\\Documents\\New folder (2)\\form\\form\\form.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\lập trình hướng đối tượng\\form\\form\\form.csproj",
+        "projectUniqueName": "C:\\Users\\tiendt\\OneDrive\\Documents\\New folder (2)\\form\\form\\form.csproj",
         "projectName": "form",
-        "projectPath": "D:\\lập trình hướng đối tượng\\form\\form\\form.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\lập trình hướng đối tượng\\form\\form\\obj\\",
+        "projectPath": "C:\\Users\\tiendt\\OneDrive\\Documents\\New folder (2)\\form\\form\\form.csproj",
+        "packagesPath": "C:\\Users\\tiendt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tiendt\\OneDrive\\Documents\\New folder (2)\\form\\form\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tiendt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
