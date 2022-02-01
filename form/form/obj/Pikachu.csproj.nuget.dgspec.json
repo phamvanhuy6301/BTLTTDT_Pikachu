@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\form.csproj": {}
+    "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\Pikachu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\form.csproj": {
+    "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\Pikachu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\form.csproj",
-        "projectName": "form",
-        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\form.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\Pikachu.csproj",
+        "projectName": "Pikachu",
+        "projectPath": "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\Pikachu.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ADMIN\\Source\\Repos\\BTLTTDT_Pikachu\\form\\form\\obj\\",
         "projectStyle": "PackageReference",
