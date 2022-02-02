@@ -1,5 +1,5 @@
 ﻿
-namespace form
+namespace Pikachu
 {
     partial class fHeThong
     {

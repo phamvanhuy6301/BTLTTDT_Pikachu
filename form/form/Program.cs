@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace form
+namespace Pikachu
 {
     static class Program
     {
@@ -17,7 +17,7 @@ namespace form
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fHeThong());
+            Application.Run(new fDSPokemon());
         }
     }
 }
