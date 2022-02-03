@@ -198,6 +198,7 @@ namespace Pikachu
             this.pictureBox4.Size = new System.Drawing.Size(114, 133);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // btnThongKe
             // 
@@ -210,6 +211,7 @@ namespace Pikachu
             this.btnThongKe.Text = "Thống kê";
             this.btnThongKe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnThongKe.UseVisualStyleBackColor = true;
+            this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
             // 
             // panel6
             // 

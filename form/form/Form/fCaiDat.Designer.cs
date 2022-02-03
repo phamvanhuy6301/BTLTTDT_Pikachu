@@ -51,9 +51,9 @@ namespace Pikachu
             // 
             this.lblAmThanh.AutoSize = true;
             this.lblAmThanh.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAmThanh.Location = new System.Drawing.Point(35, 33);
+            this.lblAmThanh.Location = new System.Drawing.Point(40, 44);
             this.lblAmThanh.Name = "lblAmThanh";
-            this.lblAmThanh.Size = new System.Drawing.Size(132, 37);
+            this.lblAmThanh.Size = new System.Drawing.Size(166, 46);
             this.lblAmThanh.TabIndex = 0;
             this.lblAmThanh.Text = "Âm thanh";
             // 
@@ -61,18 +61,19 @@ namespace Pikachu
             // 
             this.lblHinhNen.AutoSize = true;
             this.lblHinhNen.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblHinhNen.Location = new System.Drawing.Point(35, 37);
+            this.lblHinhNen.Location = new System.Drawing.Point(40, 49);
             this.lblHinhNen.Name = "lblHinhNen";
-            this.lblHinhNen.Size = new System.Drawing.Size(124, 37);
+            this.lblHinhNen.Size = new System.Drawing.Size(155, 46);
             this.lblHinhNen.TabIndex = 1;
             this.lblHinhNen.Text = "Hình nền";
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(19, 22);
+            this.radioButton1.Location = new System.Drawing.Point(22, 29);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(83, 19);
+            this.radioButton1.Size = new System.Drawing.Size(101, 24);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Tùy chọn 1";
@@ -81,9 +82,10 @@ namespace Pikachu
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(146, 22);
+            this.radioButton2.Location = new System.Drawing.Point(167, 29);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(83, 19);
+            this.radioButton2.Size = new System.Drawing.Size(101, 24);
             this.radioButton2.TabIndex = 3;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Tùy chọn 2";
@@ -92,9 +94,10 @@ namespace Pikachu
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(285, 22);
+            this.radioButton3.Location = new System.Drawing.Point(326, 29);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(83, 19);
+            this.radioButton3.Size = new System.Drawing.Size(101, 24);
             this.radioButton3.TabIndex = 4;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Tùy chọn 3";
@@ -106,9 +109,11 @@ namespace Pikachu
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Location = new System.Drawing.Point(211, 20);
+            this.groupBox1.Location = new System.Drawing.Point(241, 27);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(398, 50);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(455, 67);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             // 
@@ -117,9 +122,10 @@ namespace Pikachu
             this.pnlHinhNen.BackColor = System.Drawing.Color.PeachPuff;
             this.pnlHinhNen.Controls.Add(this.groupBox2);
             this.pnlHinhNen.Controls.Add(this.lblHinhNen);
-            this.pnlHinhNen.Location = new System.Drawing.Point(89, 278);
+            this.pnlHinhNen.Location = new System.Drawing.Point(102, 371);
+            this.pnlHinhNen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlHinhNen.Name = "pnlHinhNen";
-            this.pnlHinhNen.Size = new System.Drawing.Size(623, 100);
+            this.pnlHinhNen.Size = new System.Drawing.Size(712, 133);
             this.pnlHinhNen.TabIndex = 6;
             // 
             // groupBox2
@@ -128,18 +134,21 @@ namespace Pikachu
             this.groupBox2.Controls.Add(this.radioButton6);
             this.groupBox2.Controls.Add(this.radioButton5);
             this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Location = new System.Drawing.Point(211, 24);
+            this.groupBox2.Location = new System.Drawing.Point(241, 32);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(398, 50);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(455, 67);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             // 
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(285, 22);
+            this.radioButton6.Location = new System.Drawing.Point(326, 29);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(83, 19);
+            this.radioButton6.Size = new System.Drawing.Size(101, 24);
             this.radioButton6.TabIndex = 2;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Tùy chọn 3";
@@ -148,9 +157,10 @@ namespace Pikachu
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(146, 22);
+            this.radioButton5.Location = new System.Drawing.Point(167, 29);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(83, 19);
+            this.radioButton5.Size = new System.Drawing.Size(101, 24);
             this.radioButton5.TabIndex = 1;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Tùy chọn 2";
@@ -159,9 +169,10 @@ namespace Pikachu
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(19, 22);
+            this.radioButton4.Location = new System.Drawing.Point(22, 29);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(83, 19);
+            this.radioButton4.Size = new System.Drawing.Size(101, 24);
             this.radioButton4.TabIndex = 0;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Tùy chọn 1";
@@ -172,19 +183,21 @@ namespace Pikachu
             this.pnlAmThanh.BackColor = System.Drawing.Color.PeachPuff;
             this.pnlAmThanh.Controls.Add(this.lblAmThanh);
             this.pnlAmThanh.Controls.Add(this.groupBox1);
-            this.pnlAmThanh.Location = new System.Drawing.Point(89, 78);
+            this.pnlAmThanh.Location = new System.Drawing.Point(102, 104);
+            this.pnlAmThanh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlAmThanh.Name = "pnlAmThanh";
-            this.pnlAmThanh.Size = new System.Drawing.Size(623, 100);
+            this.pnlAmThanh.Size = new System.Drawing.Size(712, 133);
             this.pnlAmThanh.TabIndex = 7;
             // 
             // fCaiDat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(914, 600);
             this.Controls.Add(this.pnlAmThanh);
             this.Controls.Add(this.pnlHinhNen);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fCaiDat";
             this.Text = "Cài Đặt";
             this.groupBox1.ResumeLayout(false);

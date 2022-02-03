@@ -49,5 +49,19 @@ namespace Pikachu
             fHeThong f = new fHeThong();
             f.Show();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fThongKe f = new fThongKe();
+            f.Show();
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fThongKe f = new fThongKe();
+            f.Show();
+        }
     }
 }
