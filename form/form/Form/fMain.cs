@@ -16,5 +16,38 @@ namespace Pikachu
         {
             InitializeComponent();
         }
+
+        private void btnDanhMuc_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fDanhMuc frm2 = new fDanhMuc();
+            frm2.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fDanhMuc frm2 = new fDanhMuc();
+            frm2.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fHeThong f = new fHeThong();
+            f.Show();
+        }
+
+        private void btnHeThong_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fHeThong f = new fHeThong();
+            f.Show();
+        }
     }
 }

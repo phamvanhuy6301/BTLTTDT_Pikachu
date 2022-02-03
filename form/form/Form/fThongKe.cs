@@ -25,5 +25,14 @@ namespace Pikachu
             this.pnlDisplayThongKe.Controls.Add(f);
             f.Show();
         }
+
+        private void btnXepHang_Click(object sender, EventArgs e)
+        {
+            this.pnlDisplayThongKe.Controls.Clear();
+            fBangXepHang f = new fBangXepHang();
+            f.TopLevel = false;
+            this.pnlDisplayThongKe.Controls.Add(f);
+            f.Show();
+        }
     }
 }

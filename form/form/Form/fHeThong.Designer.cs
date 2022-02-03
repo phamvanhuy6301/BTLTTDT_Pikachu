@@ -30,10 +30,10 @@ namespace Pikachu
         private void InitializeComponent()
         {
             this.pnlButtonHeThong = new System.Windows.Forms.Panel();
-            this.pnlDisplayHeThong = new System.Windows.Forms.Panel();
-            this.btnHeThong_CapNhat = new System.Windows.Forms.Button();
-            this.btnHeThong_DoiMk = new System.Windows.Forms.Button();
             this.btnHeThong_CaiDat = new System.Windows.Forms.Button();
+            this.btnHeThong_DoiMk = new System.Windows.Forms.Button();
+            this.btnHeThong_CapNhat = new System.Windows.Forms.Button();
+            this.pnlDisplayHeThong = new System.Windows.Forms.Panel();
             this.pnlButtonHeThong.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,22 +48,16 @@ namespace Pikachu
             this.pnlButtonHeThong.Size = new System.Drawing.Size(209, 425);
             this.pnlButtonHeThong.TabIndex = 0;
             // 
-            // pnlDisplayHeThong
+            // btnHeThong_CaiDat
             // 
-            this.pnlDisplayHeThong.Location = new System.Drawing.Point(229, 13);
-            this.pnlDisplayHeThong.Name = "pnlDisplayHeThong";
-            this.pnlDisplayHeThong.Size = new System.Drawing.Size(559, 425);
-            this.pnlDisplayHeThong.TabIndex = 1;
-            // 
-            // btnHeThong_CapNhat
-            // 
-            this.btnHeThong_CapNhat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnHeThong_CapNhat.Location = new System.Drawing.Point(29, 23);
-            this.btnHeThong_CapNhat.Name = "btnHeThong_CapNhat";
-            this.btnHeThong_CapNhat.Size = new System.Drawing.Size(157, 89);
-            this.btnHeThong_CapNhat.TabIndex = 0;
-            this.btnHeThong_CapNhat.Text = "Cập Nhật Thông Tin";
-            this.btnHeThong_CapNhat.UseVisualStyleBackColor = true;
+            this.btnHeThong_CaiDat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHeThong_CaiDat.Location = new System.Drawing.Point(29, 305);
+            this.btnHeThong_CaiDat.Name = "btnHeThong_CaiDat";
+            this.btnHeThong_CaiDat.Size = new System.Drawing.Size(157, 89);
+            this.btnHeThong_CaiDat.TabIndex = 2;
+            this.btnHeThong_CaiDat.Text = "Cài Đặt";
+            this.btnHeThong_CaiDat.UseVisualStyleBackColor = true;
+            this.btnHeThong_CaiDat.Click += new System.EventHandler(this.btnHeThong_CaiDat_Click);
             // 
             // btnHeThong_DoiMk
             // 
@@ -76,15 +70,23 @@ namespace Pikachu
             this.btnHeThong_DoiMk.UseVisualStyleBackColor = true;
             this.btnHeThong_DoiMk.Click += new System.EventHandler(this.btnHeThong_DoiMk_Click);
             // 
-            // btnHeThong_CaiDat
+            // btnHeThong_CapNhat
             // 
-            this.btnHeThong_CaiDat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnHeThong_CaiDat.Location = new System.Drawing.Point(29, 305);
-            this.btnHeThong_CaiDat.Name = "btnHeThong_CaiDat";
-            this.btnHeThong_CaiDat.Size = new System.Drawing.Size(157, 89);
-            this.btnHeThong_CaiDat.TabIndex = 2;
-            this.btnHeThong_CaiDat.Text = "Cài Đặt";
-            this.btnHeThong_CaiDat.UseVisualStyleBackColor = true;
+            this.btnHeThong_CapNhat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnHeThong_CapNhat.Location = new System.Drawing.Point(29, 23);
+            this.btnHeThong_CapNhat.Name = "btnHeThong_CapNhat";
+            this.btnHeThong_CapNhat.Size = new System.Drawing.Size(157, 89);
+            this.btnHeThong_CapNhat.TabIndex = 0;
+            this.btnHeThong_CapNhat.Text = "Cập Nhật Thông Tin";
+            this.btnHeThong_CapNhat.UseVisualStyleBackColor = true;
+            this.btnHeThong_CapNhat.Click += new System.EventHandler(this.btnHeThong_CapNhat_Click);
+            // 
+            // pnlDisplayHeThong
+            // 
+            this.pnlDisplayHeThong.Location = new System.Drawing.Point(229, 13);
+            this.pnlDisplayHeThong.Name = "pnlDisplayHeThong";
+            this.pnlDisplayHeThong.Size = new System.Drawing.Size(559, 425);
+            this.pnlDisplayHeThong.TabIndex = 1;
             // 
             // fHeThong
             // 

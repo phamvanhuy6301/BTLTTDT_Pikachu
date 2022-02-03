@@ -30,9 +30,9 @@ namespace Pikachu
         private void InitializeComponent()
         {
             this.pnlButtonThongKe = new System.Windows.Forms.Panel();
-            this.pnlDisplayThongKe = new System.Windows.Forms.Panel();
-            this.btnXepHang = new System.Windows.Forms.Button();
             this.btnThanhTichCaNhan = new System.Windows.Forms.Button();
+            this.btnXepHang = new System.Windows.Forms.Button();
+            this.pnlDisplayThongKe = new System.Windows.Forms.Panel();
             this.pnlButtonThongKe.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,23 +46,6 @@ namespace Pikachu
             this.pnlButtonThongKe.Size = new System.Drawing.Size(204, 418);
             this.pnlButtonThongKe.TabIndex = 0;
             // 
-            // pnlDisplayThongKe
-            // 
-            this.pnlDisplayThongKe.Location = new System.Drawing.Point(243, 13);
-            this.pnlDisplayThongKe.Name = "pnlDisplayThongKe";
-            this.pnlDisplayThongKe.Size = new System.Drawing.Size(536, 418);
-            this.pnlDisplayThongKe.TabIndex = 1;
-            // 
-            // btnXepHang
-            // 
-            this.btnXepHang.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnXepHang.Location = new System.Drawing.Point(31, 57);
-            this.btnXepHang.Name = "btnXepHang";
-            this.btnXepHang.Size = new System.Drawing.Size(144, 103);
-            this.btnXepHang.TabIndex = 0;
-            this.btnXepHang.Text = "Bảng Xếp Hạng";
-            this.btnXepHang.UseVisualStyleBackColor = true;
-            // 
             // btnThanhTichCaNhan
             // 
             this.btnThanhTichCaNhan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -73,6 +56,24 @@ namespace Pikachu
             this.btnThanhTichCaNhan.Text = "Thành Tích Cá Nhân";
             this.btnThanhTichCaNhan.UseVisualStyleBackColor = true;
             this.btnThanhTichCaNhan.Click += new System.EventHandler(this.btnThanhTichCaNhan_Click);
+            // 
+            // btnXepHang
+            // 
+            this.btnXepHang.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnXepHang.Location = new System.Drawing.Point(31, 57);
+            this.btnXepHang.Name = "btnXepHang";
+            this.btnXepHang.Size = new System.Drawing.Size(144, 103);
+            this.btnXepHang.TabIndex = 0;
+            this.btnXepHang.Text = "Bảng Xếp Hạng";
+            this.btnXepHang.UseVisualStyleBackColor = true;
+            this.btnXepHang.Click += new System.EventHandler(this.btnXepHang_Click);
+            // 
+            // pnlDisplayThongKe
+            // 
+            this.pnlDisplayThongKe.Location = new System.Drawing.Point(243, 13);
+            this.pnlDisplayThongKe.Name = "pnlDisplayThongKe";
+            this.pnlDisplayThongKe.Size = new System.Drawing.Size(536, 418);
+            this.pnlDisplayThongKe.TabIndex = 1;
             // 
             // fThongKe
             // 

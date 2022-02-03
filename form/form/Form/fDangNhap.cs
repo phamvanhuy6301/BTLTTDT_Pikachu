@@ -16,5 +16,18 @@ namespace Pikachu
         {
             InitializeComponent();
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+           
+            this.Close();
+        }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fMain f = new fMain();
+            f.Show();
+        }
     }
 }

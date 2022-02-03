@@ -25,5 +25,39 @@ namespace Pikachu
             this.pnlDisplayDanhMuc.Controls.Add(f);
             f.Show();
         }
+
+        private void DsPhienChoi_Click(object sender, EventArgs e)
+        {
+            this.pnlDisplayDanhMuc.Controls.Clear();
+            fDSPhienChoi f = new fDSPhienChoi();
+            f.TopLevel = false;
+            this.pnlDisplayDanhMuc.Controls.Add(f);
+            f.Show();
+        }
+
+        private void btnDsPokemon_Click(object sender, EventArgs e)
+        {
+            this.pnlDisplayDanhMuc.Controls.Clear();
+            fDSPokemon f = new fDSPokemon();
+            f.TopLevel = false;
+            this.pnlDisplayDanhMuc.Controls.Add(f);
+            f.Show();
+        }
+
+        private void btnDsNguoiChoi_Click(object sender, EventArgs e)
+        {
+            this.pnlDisplayDanhMuc.Controls.Clear();
+            fDSNguoiChoi f = new fDSNguoiChoi();
+            f.TopLevel = false;
+            this.pnlDisplayDanhMuc.Controls.Add(f);
+            f.Show();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            fMain f = new fMain();
+            f.Show();
+        }
     }
 }

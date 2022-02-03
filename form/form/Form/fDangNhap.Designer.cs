@@ -32,6 +32,7 @@ namespace Pikachu
             this.pnlTop = new System.Windows.Forms.Panel();
             this.pnlBottom = new System.Windows.Forms.Panel();
             this.pnlPicture = new System.Windows.Forms.Panel();
+            this.lblPikachu = new System.Windows.Forms.Label();
             this.pbxIconGamePikachu = new System.Windows.Forms.PictureBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@ namespace Pikachu
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.pnlTaiKhoan = new System.Windows.Forms.Panel();
             this.pnlMatKhau = new System.Windows.Forms.Panel();
-            this.lblPikachu = new System.Windows.Forms.Label();
             this.pnlPicture.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxIconGamePikachu)).BeginInit();
             this.pnlTaiKhoan.SuspendLayout();
@@ -52,60 +52,77 @@ namespace Pikachu
             // 
             this.pnlTop.BackColor = System.Drawing.Color.Yellow;
             this.pnlTop.Location = new System.Drawing.Point(1, 0);
+            this.pnlTop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(533, 39);
+            this.pnlTop.Size = new System.Drawing.Size(609, 52);
             this.pnlTop.TabIndex = 0;
             // 
             // pnlBottom
             // 
             this.pnlBottom.BackColor = System.Drawing.Color.Yellow;
-            this.pnlBottom.Location = new System.Drawing.Point(1, 225);
+            this.pnlBottom.Location = new System.Drawing.Point(1, 300);
+            this.pnlBottom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlBottom.Name = "pnlBottom";
-            this.pnlBottom.Size = new System.Drawing.Size(533, 39);
+            this.pnlBottom.Size = new System.Drawing.Size(609, 52);
             this.pnlBottom.TabIndex = 1;
             // 
             // pnlPicture
             // 
             this.pnlPicture.Controls.Add(this.lblPikachu);
             this.pnlPicture.Controls.Add(this.pbxIconGamePikachu);
-            this.pnlPicture.Location = new System.Drawing.Point(1, 45);
+            this.pnlPicture.Location = new System.Drawing.Point(1, 60);
+            this.pnlPicture.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlPicture.Name = "pnlPicture";
-            this.pnlPicture.Size = new System.Drawing.Size(123, 174);
+            this.pnlPicture.Size = new System.Drawing.Size(141, 232);
             this.pnlPicture.TabIndex = 2;
+            // 
+            // lblPikachu
+            // 
+            this.lblPikachu.AutoSize = true;
+            this.lblPikachu.Location = new System.Drawing.Point(10, 13);
+            this.lblPikachu.Name = "lblPikachu";
+            this.lblPikachu.Size = new System.Drawing.Size(132, 20);
+            this.lblPikachu.TabIndex = 1;
+            this.lblPikachu.Text = "PIKACHU CỔ ĐIỂN";
             // 
             // pbxIconGamePikachu
             // 
-            this.pbxIconGamePikachu.Location = new System.Drawing.Point(11, 33);
+            this.pbxIconGamePikachu.Location = new System.Drawing.Point(13, 44);
+            this.pbxIconGamePikachu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbxIconGamePikachu.Name = "pbxIconGamePikachu";
-            this.pbxIconGamePikachu.Size = new System.Drawing.Size(102, 132);
+            this.pbxIconGamePikachu.Size = new System.Drawing.Size(117, 176);
             this.pbxIconGamePikachu.TabIndex = 0;
             this.pbxIconGamePikachu.TabStop = false;
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(257, 174);
+            this.btnDangNhap.Location = new System.Drawing.Point(294, 232);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(96, 26);
+            this.btnDangNhap.Size = new System.Drawing.Size(110, 35);
             this.btnDangNhap.TabIndex = 3;
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(409, 174);
+            this.btnThoat.Location = new System.Drawing.Point(467, 232);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(96, 26);
+            this.btnThoat.Size = new System.Drawing.Size(110, 35);
             this.btnThoat.TabIndex = 4;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // lblTaiKhoan
             // 
             this.lblTaiKhoan.AutoSize = true;
             this.lblTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTaiKhoan.Location = new System.Drawing.Point(16, 17);
+            this.lblTaiKhoan.Location = new System.Drawing.Point(18, 23);
             this.lblTaiKhoan.Name = "lblTaiKhoan";
-            this.lblTaiKhoan.Size = new System.Drawing.Size(79, 21);
+            this.lblTaiKhoan.Size = new System.Drawing.Size(100, 28);
             this.lblTaiKhoan.TabIndex = 5;
             this.lblTaiKhoan.Text = "Tài Khoản:";
             // 
@@ -113,58 +130,53 @@ namespace Pikachu
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(16, 16);
+            this.label2.Location = new System.Drawing.Point(18, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 21);
+            this.label2.Size = new System.Drawing.Size(100, 28);
             this.label2.TabIndex = 6;
             this.label2.Text = "Mật Khẩu:";
             // 
             // txtTenDangNhap
             // 
-            this.txtTenDangNhap.Location = new System.Drawing.Point(127, 15);
+            this.txtTenDangNhap.Location = new System.Drawing.Point(145, 20);
+            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
-            this.txtTenDangNhap.Size = new System.Drawing.Size(262, 23);
+            this.txtTenDangNhap.Size = new System.Drawing.Size(299, 27);
             this.txtTenDangNhap.TabIndex = 7;
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(127, 14);
+            this.txtMatKhau.Location = new System.Drawing.Point(145, 19);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(262, 23);
+            this.txtMatKhau.Size = new System.Drawing.Size(299, 27);
             this.txtMatKhau.TabIndex = 8;
             // 
             // pnlTaiKhoan
             // 
             this.pnlTaiKhoan.Controls.Add(this.txtTenDangNhap);
             this.pnlTaiKhoan.Controls.Add(this.lblTaiKhoan);
-            this.pnlTaiKhoan.Location = new System.Drawing.Point(130, 48);
+            this.pnlTaiKhoan.Location = new System.Drawing.Point(149, 64);
+            this.pnlTaiKhoan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlTaiKhoan.Name = "pnlTaiKhoan";
-            this.pnlTaiKhoan.Size = new System.Drawing.Size(392, 53);
+            this.pnlTaiKhoan.Size = new System.Drawing.Size(448, 71);
             this.pnlTaiKhoan.TabIndex = 9;
             // 
             // pnlMatKhau
             // 
             this.pnlMatKhau.Controls.Add(this.label2);
             this.pnlMatKhau.Controls.Add(this.txtMatKhau);
-            this.pnlMatKhau.Location = new System.Drawing.Point(130, 107);
+            this.pnlMatKhau.Location = new System.Drawing.Point(149, 143);
+            this.pnlMatKhau.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnlMatKhau.Name = "pnlMatKhau";
-            this.pnlMatKhau.Size = new System.Drawing.Size(392, 53);
+            this.pnlMatKhau.Size = new System.Drawing.Size(448, 71);
             this.pnlMatKhau.TabIndex = 10;
-            // 
-            // lblPikachu
-            // 
-            this.lblPikachu.AutoSize = true;
-            this.lblPikachu.Location = new System.Drawing.Point(9, 10);
-            this.lblPikachu.Name = "lblPikachu";
-            this.lblPikachu.Size = new System.Drawing.Size(106, 15);
-            this.lblPikachu.TabIndex = 1;
-            this.lblPikachu.Text = "PIKACHU CỔ ĐIỂN";
             // 
             // fDangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 261);
+            this.ClientSize = new System.Drawing.Size(610, 348);
             this.Controls.Add(this.pnlMatKhau);
             this.Controls.Add(this.pnlTaiKhoan);
             this.Controls.Add(this.btnThoat);
@@ -172,6 +184,7 @@ namespace Pikachu
             this.Controls.Add(this.pnlPicture);
             this.Controls.Add(this.pnlBottom);
             this.Controls.Add(this.pnlTop);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fDangNhap";
             this.Text = "Login";
             this.pnlPicture.ResumeLayout(false);

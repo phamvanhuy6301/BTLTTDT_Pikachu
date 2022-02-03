@@ -25,5 +25,19 @@ namespace Pikachu
             this.pnlDisplayHeThong.Controls.Add(f);
             f.Show();
         }
+
+        private void btnHeThong_CapNhat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHeThong_CaiDat_Click(object sender, EventArgs e)
+        {
+            this.pnlDisplayHeThong.Controls.Clear();
+            fCaiDat f = new fCaiDat();
+            f.TopLevel = false;
+            this.pnlDisplayHeThong.Controls.Add(f);
+            f.Show();
+        }
     }
 }
