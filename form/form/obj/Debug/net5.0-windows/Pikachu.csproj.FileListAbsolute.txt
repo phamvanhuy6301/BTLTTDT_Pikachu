@@ -87,3 +87,10 @@ C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_P
 C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\obj\Debug\net5.0-windows\ref\Pikachu.dll
 C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\obj\Debug\net5.0-windows\Pikachu.pdb
 C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\obj\Debug\net5.0-windows\Pikachu.genruntimeconfig.cache
+C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ADMIN\OneDrive - Hanoi University of Science and Technology\final_oop_Pikachu\form\form\obj\Debug\net5.0-windows\Pikachu.csproj.CopyComplete

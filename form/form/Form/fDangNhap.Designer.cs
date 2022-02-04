@@ -42,6 +42,7 @@ namespace Pikachu
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.pnlTaiKhoan = new System.Windows.Forms.Panel();
             this.pnlMatKhau = new System.Windows.Forms.Panel();
+            this.btnDangKy = new System.Windows.Forms.Button();
             this.pnlPicture.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxIconGamePikachu)).BeginInit();
             this.pnlTaiKhoan.SuspendLayout();
@@ -96,7 +97,7 @@ namespace Pikachu
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(294, 232);
+            this.btnDangNhap.Location = new System.Drawing.Point(340, 257);
             this.btnDangNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(110, 35);
@@ -107,7 +108,7 @@ namespace Pikachu
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(467, 232);
+            this.btnThoat.Location = new System.Drawing.Point(483, 257);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(110, 35);
@@ -172,11 +173,22 @@ namespace Pikachu
             this.pnlMatKhau.Size = new System.Drawing.Size(448, 71);
             this.pnlMatKhau.TabIndex = 10;
             // 
+            // btnDangKy
+            // 
+            this.btnDangKy.Location = new System.Drawing.Point(195, 257);
+            this.btnDangKy.Name = "btnDangKy";
+            this.btnDangKy.Size = new System.Drawing.Size(110, 34);
+            this.btnDangKy.TabIndex = 11;
+            this.btnDangKy.Text = "Đăng Ký";
+            this.btnDangKy.UseVisualStyleBackColor = true;
+            this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
+            // 
             // fDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(610, 348);
+            this.ClientSize = new System.Drawing.Size(613, 348);
+            this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.pnlMatKhau);
             this.Controls.Add(this.pnlTaiKhoan);
             this.Controls.Add(this.btnThoat);
@@ -213,6 +225,7 @@ namespace Pikachu
         private System.Windows.Forms.Panel pnlMatKhau;
         private System.Windows.Forms.PictureBox pbxIconGamePikachu;
         private System.Windows.Forms.Label lblPikachu;
+        private System.Windows.Forms.Button btnDangKy;
     }
 }
 

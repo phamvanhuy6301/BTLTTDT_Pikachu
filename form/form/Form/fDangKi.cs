@@ -31,5 +31,20 @@ namespace Pikachu
         {
 
         }
+
+        private void btnXacNhan_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fDangNhap f = new fDangNhap();
+            f.Show();
+            MessageBox.Show("Đăng ký tài khoản thành công");
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            fDangNhap f = new fDangNhap();
+            f.Show();
+        }
     }
 }

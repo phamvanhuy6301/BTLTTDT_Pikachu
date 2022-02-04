@@ -29,34 +29,39 @@ namespace Pikachu
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dtgrvDsNguoiChoi = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgrvDsNguoiChoi)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dtgrvDsNguoiChoi
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(776, 426);
-            this.dataGridView1.TabIndex = 0;
+            this.dtgrvDsNguoiChoi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgrvDsNguoiChoi.Location = new System.Drawing.Point(14, 16);
+            this.dtgrvDsNguoiChoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dtgrvDsNguoiChoi.Name = "dtgrvDsNguoiChoi";
+            this.dtgrvDsNguoiChoi.RowHeadersWidth = 51;
+            this.dtgrvDsNguoiChoi.RowTemplate.Height = 25;
+            this.dtgrvDsNguoiChoi.Size = new System.Drawing.Size(511, 338);
+            this.dtgrvDsNguoiChoi.TabIndex = 0;
+            this.dtgrvDsNguoiChoi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgrvDsNguoiChoi_CellContentClick);
             // 
             // fDSNguoiChoi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(527, 358);
+            this.Controls.Add(this.dtgrvDsNguoiChoi);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fDSNguoiChoi";
             this.Text = "Danh sách người chơi";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgrvDsNguoiChoi)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgrvDsNguoiChoi;
     }
 }

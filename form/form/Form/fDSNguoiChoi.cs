@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Pikachu
 {
@@ -15,6 +16,18 @@ namespace Pikachu
         public fDSNguoiChoi()
         {
             InitializeComponent();
+            LoadDSNguoiChoi();
+        }
+        void LoadDSNguoiChoi()
+        {
+            string query = "select * from TAIKHOAN";
+
+            dtgrvDsNguoiChoi.DataSource = DAO.DataProvide.Instance.LayDuLieu(query);
+        }
+
+        private void dtgrvDsNguoiChoi_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

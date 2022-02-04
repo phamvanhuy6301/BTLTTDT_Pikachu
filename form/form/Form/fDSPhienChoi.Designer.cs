@@ -29,36 +29,37 @@ namespace Pikachu
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dtgrvDsPhienChoi = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgrvDsPhienChoi)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dtgrvDsPhienChoi
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 13);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(502, 333);
-            this.dataGridView1.TabIndex = 0;
+            this.dtgrvDsPhienChoi.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dtgrvDsPhienChoi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgrvDsPhienChoi.Location = new System.Drawing.Point(13, 13);
+            this.dtgrvDsPhienChoi.Name = "dtgrvDsPhienChoi";
+            this.dtgrvDsPhienChoi.RowHeadersWidth = 51;
+            this.dtgrvDsPhienChoi.RowTemplate.Height = 29;
+            this.dtgrvDsPhienChoi.Size = new System.Drawing.Size(502, 333);
+            this.dtgrvDsPhienChoi.TabIndex = 0;
             // 
             // fDSPhienChoi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 358);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtgrvDsPhienChoi);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fDSPhienChoi";
             this.Text = "fDSPhienChoi";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgrvDsPhienChoi)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgrvDsPhienChoi;
     }
 }

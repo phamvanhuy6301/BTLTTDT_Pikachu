@@ -30,24 +30,26 @@ namespace Pikachu
         private void InitializeComponent()
         {
             this.pnlDangKi_TenDangNhap = new System.Windows.Forms.Panel();
-            this.lblTenDangNhap = new System.Windows.Forms.Label();
             this.txbDangKi_TenDangNhap = new System.Windows.Forms.TextBox();
+            this.lblTenDangNhap = new System.Windows.Forms.Label();
             this.pnlHoTen = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblDangKi_HoTen = new System.Windows.Forms.Label();
             this.pnlDangKi_GioiTinh = new System.Windows.Forms.Panel();
-            this.lblDangKi_GioiTinh = new System.Windows.Forms.Label();
-            this.rdbNam = new System.Windows.Forms.RadioButton();
             this.rdbNu = new System.Windows.Forms.RadioButton();
+            this.rdbNam = new System.Windows.Forms.RadioButton();
+            this.lblDangKi_GioiTinh = new System.Windows.Forms.Label();
             this.pnlDangKi_Tuoi = new System.Windows.Forms.Panel();
-            this.lblDangKi_Tuoi = new System.Windows.Forms.Label();
             this.nudDangki_tuoi = new System.Windows.Forms.NumericUpDown();
+            this.lblDangKi_Tuoi = new System.Windows.Forms.Label();
             this.pnlDangKi_Mk = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblDangki_MK = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.lblDangKi_MK2 = new System.Windows.Forms.Label();
+            this.btnXacNhan = new System.Windows.Forms.Button();
+            this.btnHuy = new System.Windows.Forms.Button();
             this.pnlDangKi_TenDangNhap.SuspendLayout();
             this.pnlHoTen.SuspendLayout();
             this.pnlDangKi_GioiTinh.SuspendLayout();
@@ -67,6 +69,13 @@ namespace Pikachu
             this.pnlDangKi_TenDangNhap.Size = new System.Drawing.Size(625, 54);
             this.pnlDangKi_TenDangNhap.TabIndex = 0;
             // 
+            // txbDangKi_TenDangNhap
+            // 
+            this.txbDangKi_TenDangNhap.Location = new System.Drawing.Point(203, 13);
+            this.txbDangKi_TenDangNhap.Name = "txbDangKi_TenDangNhap";
+            this.txbDangKi_TenDangNhap.Size = new System.Drawing.Size(404, 30);
+            this.txbDangKi_TenDangNhap.TabIndex = 1;
+            // 
             // lblTenDangNhap
             // 
             this.lblTenDangNhap.Location = new System.Drawing.Point(16, 13);
@@ -74,13 +83,6 @@ namespace Pikachu
             this.lblTenDangNhap.Size = new System.Drawing.Size(147, 25);
             this.lblTenDangNhap.TabIndex = 0;
             this.lblTenDangNhap.Text = "Tên Đăng Nhập:";
-            // 
-            // txbDangKi_TenDangNhap
-            // 
-            this.txbDangKi_TenDangNhap.Location = new System.Drawing.Point(203, 13);
-            this.txbDangKi_TenDangNhap.Name = "txbDangKi_TenDangNhap";
-            this.txbDangKi_TenDangNhap.Size = new System.Drawing.Size(404, 30);
-            this.txbDangKi_TenDangNhap.TabIndex = 1;
             // 
             // pnlHoTen
             // 
@@ -120,13 +122,16 @@ namespace Pikachu
             this.pnlDangKi_GioiTinh.TabIndex = 2;
             this.pnlDangKi_GioiTinh.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlDangKi_GioiTinh_Paint);
             // 
-            // lblDangKi_GioiTinh
+            // rdbNu
             // 
-            this.lblDangKi_GioiTinh.Location = new System.Drawing.Point(16, 13);
-            this.lblDangKi_GioiTinh.Name = "lblDangKi_GioiTinh";
-            this.lblDangKi_GioiTinh.Size = new System.Drawing.Size(147, 25);
-            this.lblDangKi_GioiTinh.TabIndex = 0;
-            this.lblDangKi_GioiTinh.Text = "Giới Tính: ";
+            this.rdbNu.AutoSize = true;
+            this.rdbNu.Location = new System.Drawing.Point(380, 11);
+            this.rdbNu.Name = "rdbNu";
+            this.rdbNu.Size = new System.Drawing.Size(55, 27);
+            this.rdbNu.TabIndex = 2;
+            this.rdbNu.TabStop = true;
+            this.rdbNu.Text = "Nữ";
+            this.rdbNu.UseVisualStyleBackColor = true;
             // 
             // rdbNam
             // 
@@ -139,16 +144,13 @@ namespace Pikachu
             this.rdbNam.Text = "Nam";
             this.rdbNam.UseVisualStyleBackColor = true;
             // 
-            // rdbNu
+            // lblDangKi_GioiTinh
             // 
-            this.rdbNu.AutoSize = true;
-            this.rdbNu.Location = new System.Drawing.Point(380, 11);
-            this.rdbNu.Name = "rdbNu";
-            this.rdbNu.Size = new System.Drawing.Size(55, 27);
-            this.rdbNu.TabIndex = 2;
-            this.rdbNu.TabStop = true;
-            this.rdbNu.Text = "Nữ";
-            this.rdbNu.UseVisualStyleBackColor = true;
+            this.lblDangKi_GioiTinh.Location = new System.Drawing.Point(16, 13);
+            this.lblDangKi_GioiTinh.Name = "lblDangKi_GioiTinh";
+            this.lblDangKi_GioiTinh.Size = new System.Drawing.Size(147, 25);
+            this.lblDangKi_GioiTinh.TabIndex = 0;
+            this.lblDangKi_GioiTinh.Text = "Giới Tính: ";
             // 
             // pnlDangKi_Tuoi
             // 
@@ -160,6 +162,13 @@ namespace Pikachu
             this.pnlDangKi_Tuoi.Size = new System.Drawing.Size(625, 54);
             this.pnlDangKi_Tuoi.TabIndex = 3;
             // 
+            // nudDangki_tuoi
+            // 
+            this.nudDangki_tuoi.Location = new System.Drawing.Point(203, 11);
+            this.nudDangki_tuoi.Name = "nudDangki_tuoi";
+            this.nudDangki_tuoi.Size = new System.Drawing.Size(150, 30);
+            this.nudDangki_tuoi.TabIndex = 1;
+            // 
             // lblDangKi_Tuoi
             // 
             this.lblDangKi_Tuoi.Location = new System.Drawing.Point(16, 13);
@@ -167,13 +176,6 @@ namespace Pikachu
             this.lblDangKi_Tuoi.Size = new System.Drawing.Size(147, 25);
             this.lblDangKi_Tuoi.TabIndex = 0;
             this.lblDangKi_Tuoi.Text = "Tuổi:";
-            // 
-            // nudDangki_tuoi
-            // 
-            this.nudDangki_tuoi.Location = new System.Drawing.Point(203, 11);
-            this.nudDangki_tuoi.Name = "nudDangki_tuoi";
-            this.nudDangki_tuoi.Size = new System.Drawing.Size(150, 30);
-            this.nudDangki_tuoi.TabIndex = 1;
             // 
             // pnlDangKi_Mk
             // 
@@ -228,11 +230,33 @@ namespace Pikachu
             this.lblDangKi_MK2.Text = "Nhập Lại Mật Khẩu: ";
             this.lblDangKi_MK2.Click += new System.EventHandler(this.lblDangKi_MK2_Click);
             // 
+            // btnXacNhan
+            // 
+            this.btnXacNhan.Location = new System.Drawing.Point(286, 482);
+            this.btnXacNhan.Name = "btnXacNhan";
+            this.btnXacNhan.Size = new System.Drawing.Size(94, 29);
+            this.btnXacNhan.TabIndex = 6;
+            this.btnXacNhan.Text = "Xác Nhận";
+            this.btnXacNhan.UseVisualStyleBackColor = true;
+            this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
+            // 
+            // btnHuy
+            // 
+            this.btnHuy.Location = new System.Drawing.Point(519, 482);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(94, 29);
+            this.btnHuy.TabIndex = 7;
+            this.btnHuy.Text = "Hủy";
+            this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
+            // 
             // fDangKi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 450);
+            this.ClientSize = new System.Drawing.Size(665, 524);
+            this.Controls.Add(this.btnHuy);
+            this.Controls.Add(this.btnXacNhan);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pnlDangKi_Mk);
             this.Controls.Add(this.pnlDangKi_Tuoi);
@@ -278,6 +302,8 @@ namespace Pikachu
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label lblDangKi_MK2;
+        private System.Windows.Forms.Button btnXacNhan;
+        private System.Windows.Forms.Button btnHuy;
     }
 }
 
