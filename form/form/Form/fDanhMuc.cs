@@ -15,6 +15,10 @@ namespace Pikachu
         public fDanhMuc()
         {
             InitializeComponent();
+            fDSPhienChoi f = new fDSPhienChoi();
+            f.TopLevel = false;
+            this.pnlDisplayDanhMuc.Controls.Add(f);
+            f.Show();
         }
 
         private void btnDsLevel_Click(object sender, EventArgs e)

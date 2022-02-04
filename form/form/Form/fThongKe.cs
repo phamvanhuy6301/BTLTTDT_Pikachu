@@ -34,5 +34,13 @@ namespace Pikachu
             this.pnlDisplayThongKe.Controls.Add(f);
             f.Show();
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            fMain f = new fMain();
+            f.Show();
+
+        }
     }
 }

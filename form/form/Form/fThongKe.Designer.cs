@@ -33,6 +33,7 @@ namespace Pikachu
             this.btnThanhTichCaNhan = new System.Windows.Forms.Button();
             this.btnXepHang = new System.Windows.Forms.Button();
             this.pnlDisplayThongKe = new System.Windows.Forms.Panel();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.pnlButtonThongKe.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,11 +76,23 @@ namespace Pikachu
             this.pnlDisplayThongKe.Size = new System.Drawing.Size(536, 418);
             this.pnlDisplayThongKe.TabIndex = 1;
             // 
+            // btnThoat
+            // 
+            this.btnThoat.BackColor = System.Drawing.Color.Lime;
+            this.btnThoat.Location = new System.Drawing.Point(43, 448);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(112, 29);
+            this.btnThoat.TabIndex = 2;
+            this.btnThoat.Text = "Quay Lại";
+            this.btnThoat.UseVisualStyleBackColor = false;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
             // fThongKe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 489);
+            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.pnlDisplayThongKe);
             this.Controls.Add(this.pnlButtonThongKe);
             this.Name = "fThongKe";
@@ -95,5 +108,6 @@ namespace Pikachu
         private System.Windows.Forms.Button btnThanhTichCaNhan;
         private System.Windows.Forms.Button btnXepHang;
         private System.Windows.Forms.Panel pnlDisplayThongKe;
+        private System.Windows.Forms.Button btnThoat;
     }
 }

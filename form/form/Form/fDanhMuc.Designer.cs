@@ -35,10 +35,7 @@ namespace Pikachu
             this.btnDsLevel = new System.Windows.Forms.Button();
             this.DsPhienChoi = new System.Windows.Forms.Button();
             this.pnlDisplayDanhMuc = new System.Windows.Forms.Panel();
-            this.btnThem = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
+            this.btnQuayLai = new System.Windows.Forms.Button();
             this.pnlButtonDanhMuc.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,52 +102,23 @@ namespace Pikachu
             this.pnlDisplayDanhMuc.Size = new System.Drawing.Size(545, 405);
             this.pnlDisplayDanhMuc.TabIndex = 1;
             // 
-            // btnThem
+            // btnQuayLai
             // 
-            this.btnThem.Location = new System.Drawing.Point(308, 442);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(94, 29);
-            this.btnThem.TabIndex = 2;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(432, 442);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(94, 29);
-            this.btnXoa.TabIndex = 3;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            // 
-            // btnSua
-            // 
-            this.btnSua.Location = new System.Drawing.Point(559, 442);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(94, 29);
-            this.btnSua.TabIndex = 4;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
-            // 
-            // btnThoat
-            // 
-            this.btnThoat.Location = new System.Drawing.Point(681, 442);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(94, 29);
-            this.btnThoat.TabIndex = 5;
-            this.btnThoat.Text = "Thoat";
-            this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            this.btnQuayLai.BackColor = System.Drawing.Color.Lime;
+            this.btnQuayLai.Location = new System.Drawing.Point(42, 442);
+            this.btnQuayLai.Name = "btnQuayLai";
+            this.btnQuayLai.Size = new System.Drawing.Size(94, 29);
+            this.btnQuayLai.TabIndex = 5;
+            this.btnQuayLai.Text = "Quay Lại";
+            this.btnQuayLai.UseVisualStyleBackColor = false;
+            this.btnQuayLai.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // fDanhMuc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 483);
-            this.Controls.Add(this.btnThoat);
-            this.Controls.Add(this.btnSua);
-            this.Controls.Add(this.btnXoa);
-            this.Controls.Add(this.btnThem);
+            this.Controls.Add(this.btnQuayLai);
             this.Controls.Add(this.pnlDisplayDanhMuc);
             this.Controls.Add(this.pnlButtonDanhMuc);
             this.Name = "fDanhMuc";
@@ -168,9 +136,7 @@ namespace Pikachu
         private System.Windows.Forms.Button btnDsLevel;
         private System.Windows.Forms.Button DsPhienChoi;
         private System.Windows.Forms.Panel pnlDisplayDanhMuc;
-        private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnQuayLai;
+        private System.Windows.Forms.Button btnQuay;
     }
 }

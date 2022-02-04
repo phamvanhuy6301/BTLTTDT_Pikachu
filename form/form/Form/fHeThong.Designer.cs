@@ -34,6 +34,7 @@ namespace Pikachu
             this.btnHeThong_DoiMk = new System.Windows.Forms.Button();
             this.btnHeThong_CapNhat = new System.Windows.Forms.Button();
             this.pnlDisplayHeThong = new System.Windows.Forms.Panel();
+            this.btnQuayLai = new System.Windows.Forms.Button();
             this.pnlButtonHeThong.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@ namespace Pikachu
             // btnHeThong_CaiDat
             // 
             this.btnHeThong_CaiDat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnHeThong_CaiDat.Location = new System.Drawing.Point(29, 305);
+            this.btnHeThong_CaiDat.Location = new System.Drawing.Point(29, 301);
             this.btnHeThong_CaiDat.Name = "btnHeThong_CaiDat";
             this.btnHeThong_CaiDat.Size = new System.Drawing.Size(157, 89);
             this.btnHeThong_CaiDat.TabIndex = 2;
@@ -88,11 +89,23 @@ namespace Pikachu
             this.pnlDisplayHeThong.Size = new System.Drawing.Size(559, 425);
             this.pnlDisplayHeThong.TabIndex = 1;
             // 
+            // btnQuayLai
+            // 
+            this.btnQuayLai.BackColor = System.Drawing.Color.Lime;
+            this.btnQuayLai.Location = new System.Drawing.Point(42, 450);
+            this.btnQuayLai.Name = "btnQuayLai";
+            this.btnQuayLai.Size = new System.Drawing.Size(127, 29);
+            this.btnQuayLai.TabIndex = 2;
+            this.btnQuayLai.Text = "Quay Lại";
+            this.btnQuayLai.UseVisualStyleBackColor = false;
+            this.btnQuayLai.Click += new System.EventHandler(this.btnQuayLai_Click);
+            // 
             // fHeThong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 491);
+            this.Controls.Add(this.btnQuayLai);
             this.Controls.Add(this.pnlDisplayHeThong);
             this.Controls.Add(this.pnlButtonHeThong);
             this.Name = "fHeThong";
@@ -109,5 +122,6 @@ namespace Pikachu
         private System.Windows.Forms.Button btnHeThong_DoiMk;
         private System.Windows.Forms.Button btnHeThong_CapNhat;
         private System.Windows.Forms.Panel pnlDisplayHeThong;
+        private System.Windows.Forms.Button btnQuayLai;
     }
 }

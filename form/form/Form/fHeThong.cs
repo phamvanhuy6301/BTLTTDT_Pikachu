@@ -15,6 +15,10 @@ namespace Pikachu
         public fHeThong()
         {
             InitializeComponent();
+            fDoiMK f = new fDoiMK();
+            f.TopLevel = false;
+            this.pnlDisplayHeThong.Controls.Add(f);
+            f.Show();
         }
 
         private void btnHeThong_DoiMk_Click(object sender, EventArgs e)
@@ -37,6 +41,13 @@ namespace Pikachu
             fCaiDat f = new fCaiDat();
             f.TopLevel = false;
             this.pnlDisplayHeThong.Controls.Add(f);
+            f.Show();
+        }
+
+        private void btnQuayLai_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            fMain f = new fMain();
             f.Show();
         }
     }

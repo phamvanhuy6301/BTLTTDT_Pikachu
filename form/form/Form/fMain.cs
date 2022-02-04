@@ -63,5 +63,12 @@ namespace Pikachu
             fThongKe f = new fThongKe();
             f.Show();
         }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            fDangNhap f = new fDangNhap();
+            f.Show();
+        }
     }
 }
