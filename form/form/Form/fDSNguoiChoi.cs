@@ -20,7 +20,7 @@ namespace Pikachu
         }
         void LoadDSNguoiChoi()
         {
-            string query = "select * from TAIKHOAN";
+            string query = "select * from THONGTINCANHAN";
 
             dtgrvDsNguoiChoi.DataSource = DAO.DataProvide.Instance.LayDuLieu(query);
         }

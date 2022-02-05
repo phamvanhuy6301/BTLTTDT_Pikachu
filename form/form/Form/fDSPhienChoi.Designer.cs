@@ -43,6 +43,7 @@ namespace Pikachu
             this.dtgrvDsPhienChoi.RowTemplate.Height = 29;
             this.dtgrvDsPhienChoi.Size = new System.Drawing.Size(502, 333);
             this.dtgrvDsPhienChoi.TabIndex = 0;
+            this.dtgrvDsPhienChoi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgrvDsPhienChoi_CellContentClick);
             // 
             // fDSPhienChoi
             // 

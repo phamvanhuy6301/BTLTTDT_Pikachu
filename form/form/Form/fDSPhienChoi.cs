@@ -18,6 +18,10 @@ namespace Pikachu
             InitializeComponent();
             
         }
-       
+
+        private void dtgrvDsPhienChoi_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
