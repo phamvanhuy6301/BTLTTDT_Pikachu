@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,8 +21,9 @@ namespace Pikachu.DAO
         }
         public bool DangNhap(string TenDangNhap, string MatKhau)
         {
-            //string query = "SELECT * FROM TAIKHOAN WHERE TENDANGNHAP = "TEST" AND MATKHAU = "1"";
-            return false;
+            string query = "select * from TAIKHOAN where TENDANGNHAP = '" + TenDangNhap + "' AND MATKHAU = '" + MatKhau + "'";
+            DataTable r = DAO.DataProvide.Instance.LayDuLieu(query);
+            return r.Rows.Count > 0;
         }
 
 

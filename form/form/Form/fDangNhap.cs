@@ -25,25 +25,25 @@ namespace Pikachu
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            //string TenDangNhap = txtTenDangNhap.Text;
-            //string MatKhau = txtMatKhau.Text;
-            //if (DangNhap(TenDangNhap, MatKhau))
-            //{
+            string TenDangNhap = txtTenDangNhap.Text;
+            string MatKhau = txtMatKhau.Text;
+            if (DangNhap(TenDangNhap, MatKhau))
+            {
                 this.Hide();
                 fMain f = new fMain();
                 f.Show();
-            //}
-            //else
-            //{
-                //MessageBox.Show("Sai tên đăng nhâp hoặc mật khẩu");
-            //} 
+            }
+            else
+            {
+                MessageBox.Show("Sai tên đăng nhâp hoặc mật khẩu");
+            } 
                 
         }
-        /*bool DangNhap(string TenDangNhap, string MatKhau)
+        bool DangNhap(string TenDangNhap, string MatKhau)
             {
-
-            return DAO.TaiKhoan.Instance.DangNhap(TenDangNhap, MatKhau);
-}       */
+                
+                return DAO.TaiKhoan.Instance.DangNhap(TenDangNhap, MatKhau);
+            }       
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
