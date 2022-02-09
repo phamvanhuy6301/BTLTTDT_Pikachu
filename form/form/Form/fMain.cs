@@ -70,5 +70,19 @@ namespace Pikachu
             fDangNhap f = new fDangNhap();
             f.Show();
         }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            fPlay f = new fPlay();
+            f.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            fPlay f = new fPlay();
+            f.Show();
+        }
     }
 }

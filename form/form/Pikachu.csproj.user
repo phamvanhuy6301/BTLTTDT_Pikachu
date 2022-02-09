@@ -43,7 +43,7 @@
     <Compile Update="Form\fThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form\fPlay.cs">
+    <Compile Update="fPlay.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

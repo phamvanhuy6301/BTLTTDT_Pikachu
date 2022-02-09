@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiendt\\OneDrive\\Documents\\OOP\\form\\form\\Pikachu.csproj": {}
+    "D:\\BTLTTDT_Pikachu-master\\form\\form\\Pikachu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiendt\\OneDrive\\Documents\\OOP\\form\\form\\Pikachu.csproj": {
+    "D:\\BTLTTDT_Pikachu-master\\form\\form\\Pikachu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiendt\\OneDrive\\Documents\\OOP\\form\\form\\Pikachu.csproj",
+        "projectUniqueName": "D:\\BTLTTDT_Pikachu-master\\form\\form\\Pikachu.csproj",
         "projectName": "Pikachu",
-        "projectPath": "C:\\Users\\tiendt\\OneDrive\\Documents\\OOP\\form\\form\\Pikachu.csproj",
-        "packagesPath": "C:\\Users\\tiendt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiendt\\OneDrive\\Documents\\OOP\\form\\form\\obj\\",
+        "projectPath": "D:\\BTLTTDT_Pikachu-master\\form\\form\\Pikachu.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\BTLTTDT_Pikachu-master\\form\\form\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tiendt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
         }
       }
     }
