@@ -11,7 +11,7 @@ namespace Pikachu.DAO
     public class DataProvide
     {
         private static DataProvide instance;
-        private string connectionSTR = @"Data Source=.;Initial Catalog=CSDL_PIKACHU;Integrated Security=True";
+        private string connectionSTR = @"Data Source=DESKTOP-PN54ICF\SQLEXPRESS;Initial Catalog=GAMEPIKACHU;Integrated Security=True";
 
         public static DataProvide Instance 
         { 

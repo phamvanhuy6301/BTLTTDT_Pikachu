@@ -63,5 +63,10 @@ namespace Pikachu
             fMain f = new fMain();
             f.Show();
         }
+
+        private void btnDsTaiKhoan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
